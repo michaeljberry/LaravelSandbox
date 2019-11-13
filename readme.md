@@ -21,6 +21,10 @@ with:
 - `npm install`
 - `npm run dev` 
 
+## Access to the site
+The site will be available at the ip address in Homestead.yaml which currently defaults to `192.168.10.10`.  You can change that if it causes problems in your network.
+If you'd like to use an easier address you can make an entry in `/etc/hosts` for something like `medicdigital.test`
+
 
 ## Package Creation
 A key part of this sandbox is to test the ability to create custom packages.  To that end, 
