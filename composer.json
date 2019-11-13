@@ -15,7 +15,9 @@
         "jeroen-g/laravel-packager": "^2.3",
         "laravel/framework": "^6.0",
         "laravel/homestead": "^9.3",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "sensiolabs/security-checker": "^6.0",
+        "squizlabs/php_codesniffer": "^3.5"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
@@ -61,5 +63,11 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
+    },
+    "repositories": {
+        "victorycto/sandboxjwc": {
+            "type": "path",
+            "url": "/home/vagrant/code/packages/victorycto/sandboxjwc"
+        }
     }
 }
