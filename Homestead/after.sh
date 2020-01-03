@@ -27,7 +27,9 @@
 
 
 # Composer Update
+
 cd code
 composer install 2>&1
 sudo composer self-update 2>&1
 php artisan migrate
+
