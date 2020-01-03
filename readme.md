@@ -9,15 +9,13 @@ _This is tested on MacOS, most *Nix architectures and Windows - there are some e
 - Install [Vagrant](https://vagrantup.com)
 - Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - Check out this repository to ~/code/MedicAlertSandbox - if you choose a different location you just need to make some changes to `Homestead.yaml`
-- `cp Homestead.yaml.example Homestead.yaml`
+- `cp Homestead/Homestead.yaml.example Homestead.yaml`
 - `cp .env.example .env`
 - `vagrant up`
 
 Once the machine is up you can log in with `vagrant ssh` and change to the code 
 directory `cd code` - this directory is a share from the host system.  Once in continue setup
 with:
-- `composer install`
-- `php artisan migrate`
 - `npm install`
 - `npm run dev` 
 
