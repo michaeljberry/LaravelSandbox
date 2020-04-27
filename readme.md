@@ -54,7 +54,7 @@ an image service, designed to ingest images and prepare them for use on the site
 - Save the image data to a table of your design in the local mysql database
 - Make the image available to the frontend
 
-You should be able to accomplish this withing a free tier of either cloud service, and provide locations and directions in your code for
+You should be able to accomplish this within the free tier of either cloud service, and provide locations and directions in your code for
 any needed setup.  If you need help or a paid account reach out and we will provide it.  
 
 We're looking for best practices, good documentation and testing, and creativity.  
