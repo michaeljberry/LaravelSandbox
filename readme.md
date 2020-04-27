@@ -45,6 +45,8 @@ We do not believe in standard coding tests at Victory, but we do want to see and
 of doing that is to see you code a real world example.  You may use whatever tools you have available and build this 
 in any way you see fit.  
 
+Please fork this repository and do your work.  When done email us with the fork url.
+
 ### Build a Service
 For this exercise you will build a simple service which can be utilized by the site from any controller.  This is
 an image service, designed to ingest images and prepare them for use on the site.  Your service should:
