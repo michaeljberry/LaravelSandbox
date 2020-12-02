@@ -1,3 +1,11 @@
+# Developer Comments
+- Please run artisan migrate for the database table setup
+```
+php artisan migrate
+```
+- Please check the config file in `packages/michaelberry/src/config/mbimage.php` for configuration
+- Edit `.env` file and include the credentials for S3 directory
+
 # Victory Laravel Sandbox Application
 
 This application is designed for testing of Laravel Framework capabilities.  Please submit your changes as a Pull Request.
