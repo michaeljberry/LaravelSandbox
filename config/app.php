@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        MichaelBerry\MBImage\MBImageServiceProvider::class,
         /*
          * Application Service Providers...
          */
