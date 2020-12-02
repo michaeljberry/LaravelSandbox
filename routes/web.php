@@ -1,5 +1,7 @@
 <?php
 
+use MichaelBerry\MBImage\Models\MBImage;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +14,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data['images'] = MBImage::orderBy('id', 'desc')->first();
+    return view('welcome', $data);
 });
