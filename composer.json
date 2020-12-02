@@ -17,7 +17,9 @@
         "laravel/homestead": "^9.3",
         "laravel/tinker": "^1.0",
         "sensiolabs/security-checker": "^6.0",
-        "squizlabs/php_codesniffer": "^3.5"
+        "squizlabs/php_codesniffer": "^3.5",
+        "league/flysystem-aws-s3-v3": "~1.0",
+        "intervention/image": "^2.5"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
@@ -47,7 +49,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "MichaelBerry\\MBImage\\": "packages/michaelberry/src/"
         }
     },
     "minimum-stability": "dev",
@@ -68,6 +71,18 @@
         "victorycto/sandboxjwc": {
             "type": "path",
             "url": "/home/vagrant/code/packages/victorycto/sandboxjwc"
+        },
+        "victorycto/mysandbox": {
+            "type": "path",
+            "url": "D:\\www\\code\\LaravelSandbox\\packages/victorycto/mysandbox"
+        },
+        "saperemarketing/samplepackage": {
+            "type": "path",
+            "url": "D:\\www\\code\\LaravelSandbox\\packages/saperemarketing/samplepackage"
+        },
+        "sapere/michaelberry": {
+            "type": "path",
+            "url": "D:\\www\\code\\LaravelSandbox\\packages/sapere/michaelberry"
         }
     }
 }
